@@ -1,6 +1,6 @@
 <html>
   <script>
-    var lv1 = [0,0]
+    var lv1 = [0,0];
   </script>
   <head>
     <title>Braden Tiernan</title>
@@ -40,7 +40,7 @@
         <div class="s1s1s5"><img class="wsc1 s1s1s6" src="images/jpg1.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1 linksc2">photographer <a href="https://www.facebook.com/brittany.tiernan.3" target="_blank" class="link">brittany busby</a>*</p></div>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Recent Projects.</h1>
-        <div class="wsc1 s1s1s7"><img class="s1s1s7s2" src="images/svg4.svg?a=d"><div class="s1s1s7s1"><h3 class="s1s1s7s1s1">New Portfolio.</h3></div></div>
+        <div class="wsc1 s1s1s7"><img class="s1s1s7s2" src="images/svg4.svg?a=d"><div class="s1s1s7s1"><h3 class="s1s1s7s1s1">New Portfolio.</h3></div><div class="s1s1s7s1"><p class="s1s1s7s3">This is my first portfolio website. It's bound to get better over time, and in the mean time i'll keep working on ProtoHub.</p></div></div>
         <div class="wsc1 s1s1s7"></div>
         <div class="wsc1 s1s1s7"></div>
         <p class="wsc1 s1s1s2 linksc2"><a onClick="cp('//braden.protohub.online/');" class="link">see more projects &rarr;</a></p>

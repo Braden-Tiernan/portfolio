@@ -450,6 +450,19 @@ h1 {
   cursor:pointer;
 }
 
+.s1s1s7s3 {
+  width:calc(100% - 40px);
+  height:fit-content;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  left:20px;
+  top:70px;
+}
+
 .s1s1s1s2 {
   position:relative;
 }
