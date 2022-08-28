@@ -4,7 +4,7 @@
   </script>
   <head>
     <title>Braden Tiernan</title>
-    <link type="x-image/icon" rel="shortcut icon" href="https://protohub.online/ProtoHub/ProtoHub%20Logo%20Vector.svg">
+    <link type="x-image/icon" rel="shortcut icon" href="https://braden.protohub.online/images/jpg1.jpg">
     <link id="pagestyle" rel="stylesheet" type="text/css" href="/<?php if (!empty($_COOKIE['mode'])) {if ($_COOKIE['mode'] == "black") {echo "darkss";} else {echo "lightss";}} else {echo "lightss";} ?>">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@PawsCyro" />
@@ -34,12 +34,18 @@
         <p class="wsc1 s1s1s2">I’ve been designing with computers since the day I opened my first laptop. The cusp of technology has always fascinated me and I've never been afraid to just jump in and give it a go.</p>
         <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
-        
-        <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">A <sub>little</sub> <a class="s1s1s1s1">About Me.</a></h1>
+        <p class="wsc1 s1s1s2">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+        <p class="wsc1 s1s1s2"><a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="link">contact me &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
+        <div class="s1s1s5"><img class="wsc1 s1s1s6" src="images/jpg1.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1">*photographer credit to <a onClick="cp('https://www.facebook.com/brittany.tiernan.3',true);" class="link">brittany busby</a>.</p></div>
+        <div class="s1s1s4"></div>
+        <h1 class="wsc1 s1s1s1sc1">Projects.</h1>
         <p class="wsc1 s1s1s2">Place holder uwu</p>
         <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
-        <!--<div class="s1s1s5"><img class="wsc1 s1s1s6" src="https://i.ibb.co/0VkVrtr/291-FE0-A5-F835-4955-A85-C-A2-A7-AE0-D8732.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1">I’ve been designing with computers since the day I opened my first laptop. The cusp of technology has always fascinated me and I've never been afraid to just jump in and give it a go.</p></div>-->
+        <div class="s1s1s4"></div>
+        <h1 class="wsc1 s1s1s1sc1">Skills.</h1>
+        <p class="wsc1 s1s1s2">Place holder uwu</p>
+        <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Top Three Songs.</h1>
         <p class="wsc1 s1s1s2"><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/sunroof/1620952862?i=1620953051"></iframe></p>
@@ -47,17 +53,11 @@
         <p class="wsc1 s1s1s2"><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/amazing/1606962225?i=1606962237"></iframe></p>
         <!--<p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">ProtoHub &rarr;</a></p>-->
         <div class="s1s1s4"></div>
-        <h1 class="wsc1 s1s1s1sc1">Projects.</h1>
-        <p class="wsc1 s1s1s2">Place holder uwu</p>
-        <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
-        <!--<p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">ProtoHub &rarr;</a></p>-->
-        <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Let's Connect.</h1>
-        <p class="wsc1 s1s1s2">Place holder uwu</p>
-        <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
+        <p class="wsc1 s1s1s2 s1s1s2sc2"><a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%8E%A8%20I%20am%20looking%20for%20a%20UX%2FUI%20Designer.%20Let%27s%20talk" class="linksc1">UI/UX DESIGN</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20I%20am%20looking%20for%20a%20master%20of%20code.%20Let%27s%20talk" class="linksc1">FRONTEND DEVELOPMENT</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20I%20am%20looking%20for%20a%20master%20of%20code.%20Let%27s%20talk" class="linksc1">BACKEND DEVELOPMENT</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20I%20am%20looking%20for%20a%20Shopify%20Developer.%20Let%27s%20talk" class="linksc1">SHOPIFY DEVELOPMENT</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%92%BC%20Could%20you%20help%20me%20with%20my%20new%20business%3F" class="linksc1">NEW BUSINESS</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%8D%A6%20mmm...I%20love%20ice%20cream%21%20High%20five%21" class="linksc1">ICE CREAM</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%A4%9D%20Project%20info.%20Let%27s%20talk" class="linksc1">OTHER</a></p>
+        <div class="s1s1s2sc3"></div>
         <!--<p class="wsc1 s1s1s2">I’ve been designing with computers since the day I opened my first laptop. The cusp of technology has always fascinated me and I've never been afraid to just jump in and give it a go.</p>
         <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>-->
-        <div class="s1s1s4"></div>
       </div>
     </div>
     <div class="s4"></div>
@@ -65,7 +65,7 @@
       <div class="s2s1"></div>
     </div>
     <div class="s2s2"><div class="s2s2s1"></div></div>
-    <div class="s6"><div class="s6s1"></div><p class="s6s2"><a class="s6s2s2">Telegram</a> &bull; <a class="s6s2s2">Email</a> &bull; <img class="s6s2s1" src="images/svg2.svg?a=c"> &bull; <img class="s6s2s1" src="images/svg1.svg?a=c"></p></div>
+    <div class="s6"><div class="s6s1"></div><p class="s6s2"><a href="tel:9182645858" class="s6s2s2">Phone</a> &bull; <a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="s6s2s2">Email</a> &bull; <a href="https://twitter.com/PawsCyro" target="_blank"><img class="s6s2s1" src="images/svg2.svg?a=c"></a> &bull; <a href="https://www.instagram.com/braden.tiernan/" target="_blank"><img class="s6s2s1" src="images/svg1.svg?a=c"></a> &bull; <a href="https://github.com/Braden-Tiernan" target="_blank"><img class="s6s2s1" src="images/svg3.svg?a=c"></p></a></div>
     <div class="s3"><?php for ($i = 0; $i < 20; $i++) {echo "<div class='s3sc1'>";}; for ($i = 0; $i < 10; $i++) {echo "</div>";}?><h2 class="s3s1"><i>Braden Tiernan.</i></h2></div>
   </body>
   <script>
@@ -104,7 +104,7 @@
         }
       }
       document.getElementsByClassName("s2s1")[0].style.transform = "translateY(" + -(document.body.scrollTop * 2) + "px)";
-      if (isInViewport(document.getElementsByClassName("s1s1s2")[1])) {
+      if (isInViewport(document.getElementsByClassName("s1s1s1")[0])) {
         document.getElementsByClassName("s3s1")[0].style.opacity = 0;
         document.getElementsByClassName("s3s1")[0].style.transform = "translateX(-40px)";
         document.getElementsByClassName("s6")[0].style.opacity = 1;
@@ -139,12 +139,16 @@
       );
     }
     
-    function cp(a) {
-      f1v1 = false;
-      setTimeout(() => cp2(a), 100);
+    function cp(a,b) {
+      if (b) {
+         window.open(a);
+      } else {
+        f1v1 = false;
+        setTimeout(() => cp2(a,b), 100);
+      }
     }
     
-    function cp2(a) {
+    function cp2(a,b) {
       for (var i=0; i < document.getElementsByClassName("wsc1").length; i++) {
         document.getElementsByClassName("wsc1")[i].style.animation = "kf1 1s 0s forwards 1";
       }
