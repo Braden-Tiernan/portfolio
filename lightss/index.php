@@ -78,6 +78,19 @@ h1 {
   background-size:100% 100%;
   color:black;
 }
+@media all and (max-width: 650px) {
+  .linksc1 {
+    font-size:12px;
+  }
+}
+
+.linksc2 {
+  text-align:right;
+}
+
+.linksc3 {
+  text-align:center;
+}
 
 @keyframes kf1 {
   0% {opacity:1;transform:translateX(0rem);visibility: visible;}
@@ -149,6 +162,7 @@ h1 {
   bottom:-100%;
   background: radial-gradient(circle, black 0%, rgba(10,132,255,0) 50%);
   pointer-events:none;
+  transition:all 0.4s;-moz-transition:all 0.4s;-webkit-transition:all 0.4s;-o-transition:all 0.4s;
 }
 
 @media all and (max-width: 650px) {
@@ -280,7 +294,7 @@ h1 {
   left:0px;
   width:50%;
   height:100%;
-  transition:all 0.1s;-moz-transition:all 0.1s;-webkit-transition:all 0.1s;-o-transition:all 0.1s;
+  transition:all 0.4s;-moz-transition:all 0.1s;-webkit-transition:all 0.1s;-o-transition:all 0.1s;
   background-color:white;
 }
 
@@ -389,6 +403,59 @@ h1 {
   max-width:100%;
   border-radius:10px;
   border:0.5px solid white;
+}
+
+.s1s1s7 {
+  width:calc(100% - 2px);max-width:800px;height:175px;border:1px solid white;border-radius:10px;margin:0px auto;margin-bottom:20px;overflow:hidden;color:white;
+}
+
+.s1s1s7s1 {
+  width:calc(100% - 90px);
+  height:fit-content;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size:30px;
+  font-family: "Bakbak One", cursive;
+  line-height:30px;
+  font-weight:normal;
+  position:absolute;
+  left:70px;
+  top:20px;
+}
+
+.s1s1s7s1s1 {
+  font-size:30px;
+  font-family: "Bakbak One", cursive;
+  line-height:30px;
+  display: inline;
+  font-weight:normal;
+}
+@media all and (max-width: 650px) {
+  .s1s1s7s1s1 {
+    font-size:25px;
+    line-height:30px;
+  }
+  .s1s1s7s1 {
+    font-size:25px;
+    line-height:30px;
+  }
+}
+
+.s1s1s7s2 {
+  position:absolute;
+  left:20px;
+  top:20px;
+  width:30px;
+  cursor:pointer;
+}
+
+.s1s1s1s2 {
+  position:relative;
+}
+
+.s1s1s1s2s1 {
+  font-size:14px;font-family:monospace;color:#ccd6f6;position:absolute;bottom:100%;left:0px;
 }
 
 

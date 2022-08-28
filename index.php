@@ -5,12 +5,12 @@
   <head>
     <title>Braden Tiernan</title>
     <link type="x-image/icon" rel="shortcut icon" href="https://braden.protohub.online/images/jpg1.jpg">
-    <link id="pagestyle" rel="stylesheet" type="text/css" href="/<?php if (!empty($_COOKIE['mode'])) {if ($_COOKIE['mode'] == "black") {echo "darkss";} else {echo "lightss";}} else {echo "lightss";} ?>">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="<?php if (!empty($_COOKIE['mode'])) {if ($_COOKIE['mode'] == "black") {echo "darkss";} else {echo "lightss";}} else {echo "lightss";} ?>">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@PawsCyro" />
     <meta name="twitter:creator" content="@PawsCyro" />
-    <meta name="twitter:image" content="https://protohub.online/ProtoHub/ProtoHub%20LogoText.png" />
-    <meta property="og:image" content="https://protohub.online/ProtoHub/ProtoHub%20LogoText.png">
+    <meta name="twitter:image" content="https://braden.protohub.online/images/png1.png" />
+    <meta property="og:image" content="https://braden.protohub.online/images/png1.png">
     <meta property="og:image:alt" content="Braden Tiernan Logo">
     <meta name="twitter:description" content="Check out Braden Tiernan, and see how he can help you." />
     <meta property="og:title" content="Braden Tiernan" />
@@ -30,18 +30,20 @@
     <div class="s1">
       <div class="s1s1">
         <div class="s1s1s3"></div>
-        <h1 class="wsc1 s1s1s1">BRADEN TIERNAN.</h1>
+        <h1 class="wsc1 s1s1s1"><span class="s1s1s1s2"><span class="s1s1s1s2s1">Hi, my name is</span>BRADEN</span> TIERNAN.</h1>
         <p class="wsc1 s1s1s2">I’ve been designing with computers since the day I opened my first laptop. The cusp of technology has always fascinated me and I've never been afraid to just jump in and give it a go.</p>
         <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
-        <h1 class="wsc1 s1s1s1sc1">A <sub>little</sub> <a class="s1s1s1s1">About Me.</a></h1>
-        <p class="wsc1 s1s1s2">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+        <h1 class="wsc1 s1s1s1sc1">A <sub><sup>little</sup></sub> <a class="s1s1s1s1">About Me.</a></h1>
+        <p class="wsc1 s1s1s2">I'm a Full Stack Web Developer building the Front-end/Back-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
         <p class="wsc1 s1s1s2"><a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="link">contact me &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
-        <div class="s1s1s5"><img class="wsc1 s1s1s6" src="images/jpg1.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1">*photographer credit to <a onClick="cp('https://www.facebook.com/brittany.tiernan.3',true);" class="link">brittany busby</a>.</p></div>
+        <div class="s1s1s5"><img class="wsc1 s1s1s6" src="images/jpg1.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1 linksc2">photographer <a href="https://www.facebook.com/brittany.tiernan.3" target="_blank" class="link">brittany busby</a>*</p></div>
         <div class="s1s1s4"></div>
-        <h1 class="wsc1 s1s1s1sc1">Projects.</h1>
-        <p class="wsc1 s1s1s2">Place holder uwu</p>
-        <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>
+        <h1 class="wsc1 s1s1s1sc1">Recent Projects.</h1>
+        <div class="wsc1 s1s1s7"><img class="s1s1s7s2" src="images/svg4.svg?a=d"><div class="s1s1s7s1"><h3 class="s1s1s7s1s1">New Portfolio.</h3></div></div>
+        <div class="wsc1 s1s1s7"></div>
+        <div class="wsc1 s1s1s7"></div>
+        <p class="wsc1 s1s1s2 linksc2"><a onClick="cp('//braden.protohub.online/');" class="link">see more projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Skills.</h1>
         <p class="wsc1 s1s1s2">Place holder uwu</p>
@@ -55,6 +57,7 @@
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Let's Connect.</h1>
         <p class="wsc1 s1s1s2 s1s1s2sc2"><a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%8E%A8%20I%20am%20looking%20for%20a%20UX%2FUI%20Designer.%20Let%27s%20talk" class="linksc1">UI/UX DESIGN</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20I%20am%20looking%20for%20a%20master%20of%20code.%20Let%27s%20talk" class="linksc1">FRONTEND DEVELOPMENT</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20I%20am%20looking%20for%20a%20master%20of%20code.%20Let%27s%20talk" class="linksc1">BACKEND DEVELOPMENT</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%20I%20am%20looking%20for%20a%20Shopify%20Developer.%20Let%27s%20talk" class="linksc1">SHOPIFY DEVELOPMENT</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%92%BC%20Could%20you%20help%20me%20with%20my%20new%20business%3F" class="linksc1">NEW BUSINESS</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%8D%A6%20mmm...I%20love%20ice%20cream%21%20High%20five%21" class="linksc1">ICE CREAM</a> <a href="mailto:braden.tiernan92@gmail.com?subject=%F0%9F%A4%9D%20Project%20info.%20Let%27s%20talk" class="linksc1">OTHER</a></p>
+        <p class="wsc1 s1s1s2 s1s1s2sc1 linksc3">braden.tiernan92@gmail.com&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a onClick="window.scroll({top: 0, left: 0, behavior: 'smooth'});" class="link">back to top &uarr;</a></p>
         <div class="s1s1s2sc3"></div>
         <!--<p class="wsc1 s1s1s2">I’ve been designing with computers since the day I opened my first laptop. The cusp of technology has always fascinated me and I've never been afraid to just jump in and give it a go.</p>
         <p class="wsc1 s1s1s2"><a onClick="cp('//braden.protohub.online/');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('//braden.protohub.online/');" class="link">see projects &rarr;</a></p>-->
@@ -111,6 +114,7 @@
         document.getElementsByClassName("s6")[0].style.transform = "translateX(0px)";
         document.getElementsByClassName("s2s2")[0].style.opacity = 0;
         document.getElementsByClassName("s2s2")[0].style.transform = "translateY(20px)";
+        document.getElementsByClassName("s4")[0].style.opacity = 1;
       } else {
         document.getElementsByClassName("s3s1")[0].style.opacity = 1;
         document.getElementsByClassName("s3s1")[0].style.transform = "translateX(0px)";
@@ -118,6 +122,7 @@
         document.getElementsByClassName("s6")[0].style.transform = "translateX(-40px)";
         document.getElementsByClassName("s2s2")[0].style.opacity = 1;
         document.getElementsByClassName("s2s2")[0].style.transform = "translateY(0px)";
+        document.getElementsByClassName("s4")[0].style.opacity = 0.6;
       }
       document.getElementsByClassName("s2s2s1")[0].style.width = ((document.body.scrollTop / (document.body.scrollHeight - window.innerHeight)) * 100) + "%";
       //document.getElementsByClassName("s2s2")[0].style.transform = "translateY(" + -document.body.scrollTop + "px)";
@@ -159,6 +164,7 @@
       document.getElementsByClassName("s2s2")[0].style.transform = "translateY(20px)";
       document.getElementsByClassName("s6")[0].style.opacity = 1;
       document.getElementsByClassName("s6")[0].style.transform = "translateX(0px)";
+      document.getElementsByClassName("s4")[0].style.opacity = 1;
       setTimeout(() => window.location = a, 1000);
     }
   </script>
