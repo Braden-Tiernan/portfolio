@@ -1,6 +1,7 @@
 <html>
   <script>
     var lv1 = [0,0];
+    <?php eval('$gv1 = ' . file($_SERVER['DOCUMENT_ROOT'] . "/data/projects.txt")[0] . ';'); ?>
   </script>
   <head>
     <title>Braden Tiernan</title>
@@ -40,12 +41,24 @@
         <div class="s1s1s5"><img class="wsc1 s1s1s6" src="images/jpg1.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1 linksc2">photographer <a href="https://www.facebook.com/brittany.tiernan.3" target="_blank" class="link">brittany busby</a>*</p></div>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Recent Projects.</h1>
-        <div class="wsc1 s1s1s7"><img class="s1s1s7s2" src="images/svg4.svg?a=d"><div class="s1s1s7s1"><h3 class="s1s1s7s1s1">New Portfolio.</h3></div><div class="s1s1s7s3"><p class="s1s1s7s3s1">This is my first portfolio website. It's bound to get better over time, and in the mean time i'll keep working on ProtoHub.</p></div></div>
-        <div class="wsc1 s1s1s7"></div>
-        <div class="wsc1 s1s1s7"></div>
-        <p class="wsc1 s1s1s2 linksc2"><a onClick="cp('#');" class="link">see more projects &rarr;</a></p>
+        <?php
+          for ($i = count($gv1), $i2 = 0;($i > 0) && ($i2 < 5); $i--, $i2++) {
+            $temp = "";
+            if ($gv1[$i - 1][6]) {
+              $temp = '<a href="' . $gv1[$i - 1][7] . '" target="_blank"><img class="s1s1s7s2sc1" src="images/svg3.svg?a=c"></a>';
+            } else if ($gv1[$i - 1][4]) {
+              $temp = '<a href="' . $gv1[$i - 1][5] . '" target="_blank"><img class="s1s1s7s2sc1" src="images/svg5.svg?a=c"></a>';
+            }
+            echo '<div class="wsc1 s1s1s7"><img class="s1s1s7s2" src="images/svg4.svg?a=d">' . $temp . '<div class="s1s1s7s1"><h3 class="s1s1s7s1s1">' . $gv1[$i - 1][0] . '</h3></div><div class="s1s1s7s3"><p class="s1s1s7s3s1">' . $gv1[$i - 1][1] . '</p></div></div>';
+          }
+        ?>
+        <p class="wsc1 s1s1s2 linksc2"><a onClick="cp('#');" class="link">see all projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Skills.</h1>
+        <p class="wsc1 s1s1s2">Place holder uwu</p>
+        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('#');" class="link">see projects &rarr;</a></p>
+        <div class="s1s1s4"></div>
+        <h1 class="wsc1 s1s1s1sc1">Where I've Worked.</h1>
         <p class="wsc1 s1s1s2">Place holder uwu</p>
         <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('#');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
@@ -68,7 +81,7 @@
       <div class="s2s1"></div>
     </div>
     <div class="s2s2"><div class="s2s2s1"></div></div>
-    <div class="s6"><div class="s6s1"></div><p class="s6s2"><a href="tel:9182645858" class="s6s2s2">Phone</a> &bull; <a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="s6s2s2">Email</a> &bull; <a href="https://twitter.com/PawsCyro" target="_blank"><img class="s6s2s1" src="images/svg2.svg?a=c"></a> &bull; <a href="https://www.instagram.com/braden.tiernan/" target="_blank"><img class="s6s2s1" src="images/svg1.svg?a=c"></a> &bull; <a href="https://github.com/Braden-Tiernan" target="_blank"><img class="s6s2s1" src="images/svg3.svg?a=c"></p></a></div>
+    <div class="s6"><div class="s6s1"></div><p class="s6s2"><a href="tel:9182645858" class="s6s2s2">Phone</a> &bull; <a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="s6s2s2">Email</a> &bull; <a href="https://twitter.com/PawsCyro" target="_blank"><img class="s6s2s1" src="images/svg2.svg?a=c"></a> &bull; <a href="https://www.instagram.com/braden.tiernan/" target="_blank"><img class="s6s2s1" src="images/svg1.svg?a=c"></a> &bull; <a href="https://github.com/Braden-Tiernan" target="_blank"><img class="s6s2s1" src="images/svg3.svg?a=c"></a></p></div>
     <div class="s3"><?php for ($i = 0; $i < 20; $i++) {echo "<div class='s3sc1'>";}; for ($i = 0; $i < 10; $i++) {echo "</div>";}?><h2 class="s3s1"><i>Braden Tiernan.</i></h2></div>
   </body>
   <script>

@@ -410,7 +410,7 @@ h1 {
 }
 
 .s1s1s7s1 {
-  width:calc(100% - 90px);
+  width:calc(100% - 140px);
   height:fit-content;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -447,7 +447,13 @@ h1 {
   left:20px;
   top:20px;
   width:30px;
-  cursor:pointer;
+}
+
+.s1s1s7s2sc1 {
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
 }
 
 .s1s1s7s3 {
