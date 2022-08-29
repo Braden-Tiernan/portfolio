@@ -406,7 +406,7 @@ h1 {
 }
 
 .s1s1s7 {
-  width:calc(100% - 2px);max-width:800px;height:175px;border:1px solid white;border-radius:10px;margin:0px auto;margin-bottom:20px;overflow:hidden;color:white;
+  width:calc(100% - 2px);max-width:800px;height:124px;border:1px solid white;border-radius:10px;margin:0px auto;margin-bottom:20px;overflow:hidden;color:white;
 }
 
 .s1s1s7s1 {
@@ -461,6 +461,21 @@ h1 {
   position:absolute;
   left:20px;
   top:70px;
+}
+
+.s1s1s7s3s1 {
+  font-size:14px;
+  display: inline;
+}
+@media all and (max-width: 650px) {
+  .s1s1s7s3s1 {
+    font-size:14px;
+    line-height:30px;
+  }
+  .s1s1s7s3 {
+    font-size:14px;
+    line-height:30px;
+  }
 }
 
 .s1s1s1s2 {
