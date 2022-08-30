@@ -212,12 +212,12 @@ h1 {
   -webkit-backdrop-filter:blur(1px);
   -moz-backdrop-filter:blur(1px);
   -o-backdrop-filter:blur(1px);
-  background-color:rgba(2,27,52,0.05);
+  background-color:rgba(2,27,52,0.01);
 }
 
 @supports (-webkit-hyphens:none) {
   .s3sc1 {
-    background-color:transparent !important;
+    background-color:rgba(2,27,52,0.01) !important;
   }
 }
 
@@ -241,6 +241,10 @@ h1 {
     line-height:20px;
     margin:30px;
   }
+}
+
+.s3s2 {
+  position:absolute;left:15px; top:15px;height:50px;
 }
 
 .s2 {
@@ -406,7 +410,7 @@ h1 {
 }
 
 .s1s1s7 {
-  width:calc(100% - 2px);max-width:800px;height:124px;border:1px solid white;border-radius:10px;margin:0px auto;margin-bottom:20px;overflow:hidden;color:white;
+  width:calc(100% - 2px);max-width:800px;height:fit-content;min-height:124px;border:1px solid white;border-radius:10px;margin:0px auto;margin-bottom:20px;overflow:hidden;color:white;
 }
 
 .s1s1s7s1 {
@@ -463,7 +467,6 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   font-size:14px;
-  font-weight:normal;
   position:absolute;
   left:20px;
   top:70px;
@@ -476,11 +479,9 @@ h1 {
 @media all and (max-width: 650px) {
   .s1s1s7s3s1 {
     font-size:14px;
-    line-height:30px;
   }
   .s1s1s7s3 {
     font-size:14px;
-    line-height:30px;
   }
 }
 
@@ -491,6 +492,81 @@ h1 {
 .s1s1s1s2s1 {
   font-size:14px;font-family:monospace;color:#ccd6f6;position:absolute;bottom:100%;left:0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.s1s1s7sc1 {
+  width:calc(100% - 2px);max-width:800px;height:fit-content;min-height:124px;border:1px solid white;border-radius:10px;margin:0px auto;margin-bottom:20px;overflow:hidden;color:white;
+}
+
+.s1s1s7s1sc1 {
+  width:calc(100% - 140px);
+  height:fit-content;
+  font-size:30px;
+  line-height:30px;
+  font-weight:normal;
+  margin:20px;
+}
+
+.s1s1s7s1s1sc1 {
+  font-size:30px;
+  font-family: "Bakbak One", cursive;
+  line-height:30px;
+  font-weight:normal;
+  margin:0px;
+}
+@media all and (max-width: 650px) {
+  .s1s1s7s1s1sc1 {
+    font-size:25px;
+    line-height:30px;
+  }
+}
+
+.s1s1s7s2sc2 {
+  position:relative;
+  margin:20px;
+  width:30px;
+}
+
+.s1s1s7s2sc3 {
+  position:relative;
+  padding:0px 20px 20px 0px;
+  width:30px;
+  float:right;
+}
+
+.s1s1s7s3s1sc1 {
+  font-size:14px;
+  margin:20px;
+}
+
+.s1s1s7s4 {
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-size:20px;
+  line-height:30px;
+  font-weight:normal;
+  font-family: "Bakbak One", cursive;
+  margin:0px;
+}
+
+.s1s1s7s4s1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+
+
 
 
 

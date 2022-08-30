@@ -33,34 +33,51 @@
         <div class="s1s1s3"></div>
         <h1 class="wsc1 s1s1s1"><span class="s1s1s1s2"><span class="s1s1s1s2s1">Hi, my name is</span>BRADEN</span> TIERNAN.</h1>
         <p class="wsc1 s1s1s2">I’ve been designing with computers since the day I opened my first laptop. The cusp of technology has always fascinated me and I've never been afraid to just jump in and give it a go.</p>
-        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('#');" class="link">see projects &rarr;</a></p>
+        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('projects');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">A <sub><sup>little</sup></sub> <a class="s1s1s1s1">About Me.</a></h1>
         <p class="wsc1 s1s1s2">I'm a Full Stack Web Developer building the Front-end/Back-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-        <p class="wsc1 s1s1s2"><a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="link">contact me &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('#');" class="link">see projects &rarr;</a></p>
+        <p class="wsc1 s1s1s2"><a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="link">contact me &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('projects');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s5"><img class="wsc1 s1s1s6" src="images/jpg1.jpg"><p class="wsc1 s1s1s2 s1s1s2sc1 linksc2">photographer <a href="https://www.facebook.com/brittany.tiernan.3" target="_blank" class="link">brittany busby</a>*</p></div>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Recent Projects.</h1>
-        <?php
+        <?php /*
           for ($i = count($gv1), $i2 = 0;($i > 0) && ($i2 < 5); $i--, $i2++) {
             $temp = "";
-            if ($gv1[$i - 1][6]) {
-              $temp = '<a href="' . $gv1[$i - 1][7] . '" target="_blank"><img class="s1s1s7s2sc1" src="images/svg3.svg?a=c"></a>';
-            } else if ($gv1[$i - 1][4]) {
-              $temp = '<a href="' . $gv1[$i - 1][5] . '" target="_blank"><img class="s1s1s7s2sc1" src="images/svg5.svg?a=c"></a>';
+            if ($gv1[$i - 1][7]) {
+              $temp = '<a href="' . $gv1[$i - 1][8] . '" target="_blank"><img class="s1s1s7s2sc1" src="images/svg3.svg?a=c"></a>';
+            } else if ($gv1[$i - 1][5]) {
+              $temp = '<a href="' . $gv1[$i - 1][6] . '" target="_blank"><img class="s1s1s7s2sc1" src="images/svg5.svg?a=c"></a>';
             }
-            echo '<div class="wsc1 s1s1s7"><img class="s1s1s7s2" src="images/svg4.svg?a=d">' . $temp . '<div class="s1s1s7s1"><h3 class="s1s1s7s1s1">' . $gv1[$i - 1][0] . '</h3></div><div class="s1s1s7s3"><p class="s1s1s7s3s1">' . $gv1[$i - 1][1] . '</p></div></div>';
+            echo '<div class="wsc1 s1s1s7"><img onClick="cp(\'projects\');" class="s1s1s7s2" src="images/svg4.svg?a=d">' . $temp . '<div class="s1s1s7s1"><h3 class="s1s1s7s1s1">' . $gv1[$i - 1][0] . '</h3></div><div class="s1s1s7s3"><p class="s1s1s7s3s1">' . $gv1[$i - 1][1] . '</p></div></div>';
+          }*/
+          for ($i = count($gv1), $i2 = 0;($i > 0) && ($i2 < 3); $i--, $i2++) {
+            $temp = ["",""];
+            $temp2 = 0;
+            $temp3 = "";
+            if ($gv1[$i - 1][7]) {
+              $temp[$temp2] = '<a href="' . $gv1[$i - 1][8] . '" target="_blank"><img class="s1s1s7s2sc3" src="/images/svg3.svg?a=c"></a>';
+              $temp2++;
+            }
+            if ($gv1[$i - 1][5]) {
+              $temp[$temp2] = '<a href="' . $gv1[$i - 1][6] . '" target="_blank"><img class="s1s1s7s2sc3" src="/images/svg5.svg?a=c"></a>';
+              $temp2++;
+            }
+            if ($gv1[$i - 1][3]) {
+              $temp3 = '<span class="s1s1s7s4s1">' . $gv1[$i - 1][4] . '&nbsp;-&nbsp;</span>';
+            }
+            echo '<div class="wsc1 s1s1s7sc1"><img class="s1s1s7s2sc2" src="/images/svg4.svg?a=d"><div class="s1s1s7s1sc1"><h3 class="s1s1s7s1s1sc1">' . $gv1[$i - 1][0] . '</h3></div><p class="s1s1s7s3s1sc1">' . $gv1[$i - 1][1] . '</p><p class="s1s1s7s4">' . $temp3 . $gv1[$i - 1][2] . '</p>' . $temp[0] . $temp[1] . '</div>';
           }
         ?>
-        <p class="wsc1 s1s1s2 linksc2"><a onClick="cp('#');" class="link">see all projects &rarr;</a></p>
+        <p class="wsc1 s1s1s2 linksc2"><a onClick="cp('projects');" class="link">see all projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Skills.</h1>
         <p class="wsc1 s1s1s2">Place holder uwu</p>
-        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('#');" class="link">see projects &rarr;</a></p>
+        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('projects');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Where I've Worked.</h1>
         <p class="wsc1 s1s1s2">Place holder uwu</p>
-        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('#');" class="link">see projects &rarr;</a></p>
+        <p class="wsc1 s1s1s2"><a onClick="cp('#');" class="link">learn about &rarr;</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onClick="cp('projects');" class="link">see projects &rarr;</a></p>
         <div class="s1s1s4"></div>
         <h1 class="wsc1 s1s1s1sc1">Top Three Songs.</h1>
         <p class="wsc1 s1s1s2"><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/sunroof/1620952862?i=1620953051"></iframe></p>
@@ -82,7 +99,7 @@
     </div>
     <div class="s2s2"><div class="s2s2s1"></div></div>
     <div class="s6"><div class="s6s1"></div><p class="s6s2"><a href="tel:9182645858" class="s6s2s2">Phone</a> &bull; <a onClick="window.scroll({top: 999999, left: 0, behavior: 'smooth'});" class="s6s2s2">Email</a> &bull; <a href="https://twitter.com/PawsCyro" target="_blank"><img class="s6s2s1" src="images/svg2.svg?a=c"></a> &bull; <a href="https://www.instagram.com/braden.tiernan/" target="_blank"><img class="s6s2s1" src="images/svg1.svg?a=c"></a> &bull; <a href="https://github.com/Braden-Tiernan" target="_blank"><img class="s6s2s1" src="images/svg3.svg?a=c"></a></p></div>
-    <div class="s3"><?php for ($i = 0; $i < 20; $i++) {echo "<div class='s3sc1'>";}; for ($i = 0; $i < 10; $i++) {echo "</div>";}?><h2 class="s3s1"><i>Braden Tiernan.</i></h2></div>
+    <div class="s3"><?php for ($i = 0; $i < 20; $i++) {echo "<div class='s3sc1'>";}; for ($i = 0; $i < 10; $i++) {echo "</div>";}?><img class="s3s2" src="/images/svg6.svg?c=<?php echo rand(1000,9999)?>"><h2 class="s3s1"><i>Braden Tiernan.</i></h2></div>
   </body>
   <script>
     function isInViewport(element) {
