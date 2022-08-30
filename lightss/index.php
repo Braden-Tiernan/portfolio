@@ -92,6 +92,10 @@ h1 {
   text-align:center;
 }
 
+.linksc4 {
+  white-space:nowrap;
+}
+
 @keyframes kf1 {
   0% {opacity:1;transform:translateX(0rem);visibility: visible;}
   100% {opacity:0;transform:translateX(-5rem);visibility: visible;}
@@ -244,7 +248,13 @@ h1 {
 }
 
 .s3s2 {
-  position:absolute;left:15px; top:15px;height:50px;
+  position:fixed;left:45px;top:15px;height:50px;cursor:pointer;
+  transition:all 0.4s;-moz-transition:all 0.4s;-webkit-transition:all 0.4s;-o-transition:all 0.4s;
+}
+@media all and (max-width: 650px) {
+  .s3s2 {
+    left:15px;
+  }
 }
 
 .s2 {
